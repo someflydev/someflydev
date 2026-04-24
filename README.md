@@ -1,94 +1,38 @@
-# someflydev
+I’m a backend engineer focused on systems and developer workflows.
 
-I build systems that help coding assistants do better work with less waste.
+I build things that make software development:
+- simpler
+- more repeatable
+- less frustrating
 
-My recent focus is a prompt-first, context-aware workflow for creating high-quality repos with stronger docs, testing, structure, and long-running agent discipline.
+## What I care about
 
-## What I’m building
+- clean, maintainable backend systems
+- practical developer tooling (CLI-first where it makes sense)
+- reducing complexity in real-world codebases
+- workflows that scale across teams, not just individuals
+- making AI-assisted development actually usable (not chaotic)
 
-I started with a simple pattern:
+## Current focus
 
-- create a `.prompts/` directory
-- write ordered `PROMPT_XX.txt` files
-- run pre-flight checks on the prompt collection
-- commit the prompt set
-- run one megaprompt per fresh coding-assistant session
+Exploring how to turn AI coding tools into structured, repeatable development workflows:
 
-That approach kept sessions fast, focused, and high-signal while producing better code, docs, tests, and repo structure.
+- consistent context loading
+- prompt + workflow structure
+- review and testing discipline
+- clean handoffs between sessions
 
-From there, the real challenge became obvious:
+## Contact
 
-**context management matters just as much as prompt quality**.
+If you’re working on backend systems or developer tooling and care about making things simpler and more effective, feel free to reach out.
 
-Longer-running unattended sessions need better ways to decide:
+## Projects
 
-- what context to load
-- what constraints to follow
-- what good output looks like
-- how to validate work before trusting it
-- how to hand work off cleanly between sessions and agents
+### [agent-context-base](https://github.com/someflydev/agent-context-base)
+Foundations for prompt-first, structured development workflows
 
-## Current direction
+### [agent-cloud-context-base](https://github.com/someflydev/agent-cloud-context-base)
+Cloud-oriented project scaffolding with AI-assisted development workflows.
 
-That led to a broader system for context engineering and agent-guided repo creation:
-
-- codified `.prompts/` planning for derived repos
-- context-first repo generation
-- doctrine / manifest / stack / router separation
-- reusable skills
-- memory and handoff patterns
-- spec and validation oriented workflows
-- better performance through smaller, more relevant context
-- better artifacts through clearer operating rules
-
-The goal is simple:
-
-**help coding assistants produce more reliable work, more efficiently, with fewer tokens and less drift.**
-
-## What these repos explore
-
-This work also supports a growing set of canonical, tested examples across many languages and deployment styles, especially around:
-
-- backend APIs in multiple languages
-- choosing a strong web framework per language
-- HTMX + Tailwind + Plotly driven interfaces
-- Playwright UI/UX verification
-- separate `docker` / `docker-test` stacks
-- varied datastores, queues, streams, and event systems
-- prompt-driven repo bootstrapping with stronger validation
-
-## Repo family
-
-The public foundation is `agent-context-base`.
-
-From that, I planned and began building three private cloud-focused spinoff repos in parallel for:
-
-- serverless / function-oriented systems
-- simpler container-based systems
-- fuller Kubernetes-oriented systems
-
-Together, they are meant to explore how the same core discipline can scale across different operational environments.
-
-## Why this exists
-
-This work is meant to do a few things at once:
-
-- create a serious foundation for an eventual community/platform
-- support selective consulting and hands-on implementation work
-- demonstrate unusual leverage as an engineer and technical strategist
-- show how AI-assisted development can be made more disciplined, repeatable, and impressive
-
-## Important context
-
-This `someflydev` account is the newer, AI-centered umbrella for this body of work.
-
-It is intentionally separate from my older GitHub identity, which contains more traditional human-built shell, Python, and related open source projects.
-
-If you’re interested in:
-- agent-context engineering
-- prompt-first repo creation
-- long-running coding assistant workflows
-- multi-language canonical examples
-- validation-driven AI-assisted development
-
-you’re looking at the right place.
+### [language-atlas](https://github.com/someflydev/language-atlas)
+JSON → SQLite → queryable knowledge system for exploring concepts across domains.
