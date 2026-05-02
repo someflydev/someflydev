@@ -5,6 +5,8 @@ I build things that make software development:
 - more repeatable
 - less frustrating
 
+My earlier work lives under the [kenjyco](https://github.com/kenjyco) profile: 15+ interconnected Python libraries and CLI tools published to PyPI as a coherent ecosystem, built from 2014 to 2025.
+
 ## What I care about
 
 - clean, maintainable backend systems
