@@ -31,8 +31,11 @@ If you’re working on backend systems or developer tooling and care about makin
 ### [agent-context-base](https://github.com/someflydev/agent-context-base)
 Foundations for prompt-first, structured development workflows
 
+### [agent-harness-lab](https://github.com/someflydev/agent-harness-lab)
+Documents how to frame, execute, and validate bounded AI coding sessions
+
 ### [agent-cloud-context-base](https://github.com/someflydev/agent-cloud-context-base)
-Cloud-oriented project scaffolding with AI-assisted development workflows.
+Cloud-oriented project scaffolding with AI-assisted development workflows
 
 ### [language-atlas](https://github.com/someflydev/language-atlas)
-JSON → SQLite → queryable knowledge system for exploring concepts across domains.
+JSON → SQLite → queryable knowledge system for exploring concepts across domains
